@@ -2,7 +2,7 @@ import yaml
 from flask import Flask, render_template
 app = Flask(__name__)
 
-CONFIG_PATH = '../conf/flask.conf'
+CONFIG_PATH = '../flask.conf'
 
 @app.route("/")
 def hello():
